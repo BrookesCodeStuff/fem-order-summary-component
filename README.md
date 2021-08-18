@@ -14,9 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./mobile-final.png)
+![](./design/mobile-final.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-htmlsass-1vfM_h_nf](https://www.frontendmentor.io/solutions/order-summary-component-htmlsass-1vfM_h_nf)
+- Live Site URL: [https://brookescodestuff.github.io/fem-order-summary-component/index.html](https://brookescodestuff.github.io/fem-order-summary-component/index.html)
 
 ## My process
 
