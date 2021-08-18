@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: #7280a7;
+  background: top/contain no-repeat url(/images/pattern-background-mobile.svg) #e0e8ff;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 20%);
+  min-width: 340px;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0px 25px 52px -19px rgba(114, 128, 167, 0.5);
+}
+.card #hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10%;
+}
+.content header {
+  font-weight: 900;
+  color: #1f2f56;
+  font-size: 2rem;
+}
+.content p {
+  line-height: 26px;
+  text-align: center;
+}
+
+.plan {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f5f7ff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.plan a {
+  justify-self: center;
+  align-self: center;
+  text-align: right;
+  flex-grow: 1;
+  font-size: small;
+  font-weight: bold;
+  color: #3829e0;
+}
+.plan span {
+  color: #1f2f56;
+  font-weight: bold;
+}
+.plan img {
+  margin-right: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+  color: white;
+  background-color: #3829e0;
+  width: 100%;
+  height: 50px;
+  font-weight: 700;
+  box-shadow: 0px 15px 10px 3px #e8e0ff;
+}
+
+#cancel {
+  text-decoration: none;
+  font-size: 90%;
+  color: #7280a7;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    overflow: visible;
+  }
+}
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 18px;
+    background: top/contain no-repeat url(/images/pattern-background-desktop.svg) #e0e8ff;
+  }
+
+  .plan a:hover {
+    text-decoration: none;
+    color: #7280a7;
+  }
+
+  button:hover {
+    background-color: #7280a7;
+  }
+
+  #cancel:hover {
+    color: #1f2f56;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
